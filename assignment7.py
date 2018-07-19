@@ -11,7 +11,6 @@ print(ar)
 
 #question2
 
-n=6
 def perfect(n):
     sum=0
     for i in range(1,n):
@@ -35,7 +34,8 @@ def multiplication(n,i=1):
     print(n*i)
     if i!=10:
         multiplication(n,1+i)
-print(multiplication(12))
+        
+multiplication(12)
 
 #end
 
